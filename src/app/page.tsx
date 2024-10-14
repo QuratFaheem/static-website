@@ -17,7 +17,6 @@ Earn up to $5,000 / month
 
 <button id="apply">Apply Now</button>
 <img src="KT.jpg"/>
-
     </div>
     
   );
