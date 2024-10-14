@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+.headerContainer{
+  background-color: darkblue;
+  color: azure;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header-buttons{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: right;
+  text-indent: 30px;
+  padding: 10px;
+  font-weight: bolder;
+}
+h1{
+  font-size:x-large;
+  font-weight: bolder;
+  color: blue;
+}
+.tessori{
+margin-top: 15%;
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
