@@ -1,5 +1,5 @@
 import Header from "@/components/header"
-import container from "@/components/content"
+
 
 export default function Contact(){
     return(

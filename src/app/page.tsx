@@ -1,6 +1,6 @@
-//import Image from "next/image";
+import Image from "next/image";
 import Header from "@/components/header"
-import container from "@/components/content"
+
 
 export default function Home() {
   return (
@@ -16,7 +16,8 @@ Earn up to $5,000 / month
 <h2>Now admissions are open in Hyderabad</h2>
 
 <button id="apply">Apply Now</button>
-<img src="KT.jpg"/>
+
+<Image className=" py-2 px-40" src="/KT.jpg" alt="KT Image" width={500} height={500} />
     </div>
     
   );
